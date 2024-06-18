@@ -22,8 +22,7 @@ const GreetUser = () => {
         value={name}
       />
       <MsgContent>
-        {' '}
-        Hello <NameText>{name}</NameText>{' '}
+        Hello <NameText>{name}</NameText>
       </MsgContent>
     </MainContainer>
   )
